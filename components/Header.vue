@@ -13,9 +13,9 @@
       </div>
       <div id="navbarExampleTransparentExample" class="navbar-menu">
         <div class="navbar-start">
-          <a class="navbar-item" href="https://bulma.io/">
-            Home
-          </a>
+          <NuxtLink class="navbar-item" to="/">Home</NuxtLink>
+          <NuxtLink class="navbar-item" to="/about">About</NuxtLink>
+          <NuxtLink class="navbar-item" to="/post/1">Post</NuxtLink>
         </div>
         <div class="navbar-end">
           <div class="navbar-item">

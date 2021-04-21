@@ -1,0 +1,37 @@
+.card {
+  padding: 3.125rem !important;
+}
+
+.input {
+  font-size: 13px;
+  line-height: 18px;
+  color: #222222 !important;
+  background: #eceff3;
+  border: 2px solid transparent;
+  box-shadow: none;
+  outline: none;
+  padding: 16px 20px 15px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 100%;
+  display: block;
+  height: 50px;
+  margin-bottom: 10px;
+
+  &:hover,
+  &:focus {
+    background: white;
+    border-color: #4c3b94;
+  }
+}
+
+.button.is-primary {
+  background-color: #4c3b94;
+  padding: 1.8rem !important;
+
+  &:hover {
+    background-color: #9357cc;
+  }
+}
